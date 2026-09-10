@@ -85,3 +85,4 @@ AGENTS.md
 Testing
 __pycache__
 *.pyc
+build-autotests/
