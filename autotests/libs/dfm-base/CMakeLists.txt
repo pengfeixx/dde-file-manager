@@ -11,5 +11,5 @@ file(GLOB_RECURSE TEST_SOURCES
 
 dfm_add_test(ut-dfm-base
     SOURCES ${TEST_SOURCES}
-    LINK_LIBRARIES DFM6::base Qt6::Test
+    LINK_LIBRARIES DFM6::base Qt6::Test dfm-upgrade-qt6
 )
